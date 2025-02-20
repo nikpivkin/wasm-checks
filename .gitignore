@@ -1,0 +1,4 @@
+trivy-checks
+*.prof
+*.wasm
+*.wat

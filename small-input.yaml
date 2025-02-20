@@ -1,0 +1,228 @@
+__defsec_metadata:
+    endline: 73
+    filepath: large.yaml
+    offset: 1
+    startline: 1
+apiVersion: v1
+items:
+    - __defsec_metadata:
+        endline: 10
+        filepath: large.yaml
+        offset: 0
+        startline: 4
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 10
+            filepath: large.yaml
+            offset: 0
+            startline: 10
+        key1: value1
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 8
+            filepath: large.yaml
+            offset: 0
+            startline: 7
+        name: configmap-1
+        namespace: default
+    - __defsec_metadata:
+        endline: 17
+        filepath: large.yaml
+        offset: 0
+        startline: 11
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 17
+            filepath: large.yaml
+            offset: 0
+            startline: 17
+        key2: value2
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 15
+            filepath: large.yaml
+            offset: 0
+            startline: 14
+        name: configmap-2
+        namespace: default
+    - __defsec_metadata:
+        endline: 24
+        filepath: large.yaml
+        offset: 0
+        startline: 18
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 24
+            filepath: large.yaml
+            offset: 0
+            startline: 24
+        key3: value3
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 22
+            filepath: large.yaml
+            offset: 0
+            startline: 21
+        name: configmap-3
+        namespace: default
+    - __defsec_metadata:
+        endline: 31
+        filepath: large.yaml
+        offset: 0
+        startline: 25
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 31
+            filepath: large.yaml
+            offset: 0
+            startline: 31
+        key4: value4
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 29
+            filepath: large.yaml
+            offset: 0
+            startline: 28
+        name: configmap-4
+        namespace: default
+    - __defsec_metadata:
+        endline: 38
+        filepath: large.yaml
+        offset: 0
+        startline: 32
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 38
+            filepath: large.yaml
+            offset: 0
+            startline: 38
+        key5: value5
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 36
+            filepath: large.yaml
+            offset: 0
+            startline: 35
+        name: configmap-5
+        namespace: default
+    - __defsec_metadata:
+        endline: 45
+        filepath: large.yaml
+        offset: 0
+        startline: 39
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 45
+            filepath: large.yaml
+            offset: 0
+            startline: 45
+        key6: value6
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 43
+            filepath: large.yaml
+            offset: 0
+            startline: 42
+        name: configmap-6
+        namespace: default
+    - __defsec_metadata:
+        endline: 52
+        filepath: large.yaml
+        offset: 0
+        startline: 46
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 52
+            filepath: large.yaml
+            offset: 0
+            startline: 52
+        key7: value7
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 50
+            filepath: large.yaml
+            offset: 0
+            startline: 49
+        name: configmap-7
+        namespace: default
+    - __defsec_metadata:
+        endline: 59
+        filepath: large.yaml
+        offset: 0
+        startline: 53
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 59
+            filepath: large.yaml
+            offset: 0
+            startline: 59
+        key8: value8
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 57
+            filepath: large.yaml
+            offset: 0
+            startline: 56
+        name: configmap-8
+        namespace: default
+    - __defsec_metadata:
+        endline: 66
+        filepath: large.yaml
+        offset: 0
+        startline: 60
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 66
+            filepath: large.yaml
+            offset: 0
+            startline: 66
+        key9: value9
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 64
+            filepath: large.yaml
+            offset: 0
+            startline: 63
+        name: configmap-9
+        namespace: default
+    - __defsec_metadata:
+        endline: 73
+        filepath: large.yaml
+        offset: 0
+        startline: 67
+      apiVersion: v1
+      data:
+        __defsec_metadata:
+            endline: 73
+            filepath: large.yaml
+            offset: 0
+            startline: 73
+        key10: value10
+      kind: ConfigMap
+      metadata:
+        __defsec_metadata:
+            endline: 71
+            filepath: large.yaml
+            offset: 0
+            startline: 70
+        name: configmap-10
+        namespace: default
+kind: List
