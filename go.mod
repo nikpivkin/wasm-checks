@@ -2,6 +2,8 @@ module github.com/nikpivkin/wasm-checks
 
 go 1.23.6
 
+replace github.com/open-policy-agent/opa => github.com/nikpivkin/opa v0.0.0-20250220180034-21c20ea2ad61
+
 require (
 	github.com/aquasecurity/trivy v0.59.1
 	github.com/aquasecurity/trivy-checks v1.6.1
@@ -11,7 +13,6 @@ require (
 require (
 	dario.cat/mergo v1.0.1 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
-	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/ProtonMail/go-crypto v1.1.5 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/agnivade/levenshtein v1.2.1 // indirect

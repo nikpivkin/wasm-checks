@@ -22,7 +22,9 @@ import (
 )
 
 func main() {
+	log.SetOutput(os.Stderr)
 	r.RegisterBuiltins()
+
 	regoChecks := flag.String("rego-checks", "", "comma-separated paths to directories with Rego checks")
 	bundles := flag.String("bundles", "", "comma-separated paths to bundles with WASM checks")
 	input := flag.String("input", "", "path to input file")

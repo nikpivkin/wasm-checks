@@ -13,16 +13,17 @@ make build-opa-bundle
 go test -bench=. -benchmem
 goos: darwin
 goarch: arm64
-pkg: test
+pkg: github.com/nikpivkin/wasm-checks
 cpu: Apple M1
-BenchmarkRegoChecksWithLoad-8                  5         214656717 ns/op        120855673 B/op   2271817 allocs/op
-BenchmarkWasmChecksWithLoad-8                  1        3144039042 ns/op        1612962680 B/op  3533409 allocs/op
-BenchmarkRegoChecks-8                         18          64635005 ns/op        24844341 B/op     390555 allocs/op
-BenchmarkWasmChecks-8                          1        3148738791 ns/op        1612381384 B/op  3531795 allocs/op
-BenchmarkRegoChecksOneQuery-8                 56          18768454 ns/op        11789150 B/op     162972 allocs/op
-BenchmarkWasmChecksOneQuery-8                  1        2885350833 ns/op        1385517664 B/op  1197948 allocs/op
+BenchmarkRegoChecksWithLoad-8                  5         241544900 ns/op        113586585 B/op   1973174 allocs/op
+BenchmarkWasmChecksWithLoad-8                  1        3190281041 ns/op        1604378952 B/op  3461353 allocs/op
+BenchmarkRegoChecks-8                         18          59726509 ns/op        22724456 B/op     343297 allocs/op
+BenchmarkWasmChecks-8                          1        3174330541 ns/op        1603826616 B/op  3459758 allocs/op
+BenchmarkRegoChecksOneQuery-8                 60          17161990 ns/op        11157759 B/op     138003 allocs/op
+BenchmarkWasmChecksOneQuery-8                  1        2862104750 ns/op        1384479280 B/op  1139169 allocs/op
+BenchmarkUseWasmDirectly-8                    37          27840310 ns/op        11470507 B/op     127631 allocs/op
 PASS
-ok      test    18.292s
+ok      github.com/nikpivkin/wasm-checks        20.245s
 ```
 
 # Performance Comparison: Rego vs WASM
